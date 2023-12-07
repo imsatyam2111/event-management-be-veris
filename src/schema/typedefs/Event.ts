@@ -9,6 +9,7 @@ export const EventType = new GraphQLObjectType({
         time: { type: GraphQLString },
         duration: { type: GraphQLString },
         description: { type: GraphQLString },
+        location: { type: GraphQLString },
         guests: { type: new GraphQLList(GraphQLString) },
     }),
 });
